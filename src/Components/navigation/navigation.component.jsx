@@ -30,7 +30,7 @@ const Navigation = () => {
   return (
 <div >
     <div className='navigation'>
-    <MDBNavbar expand='lg' light bgColor='light'>
+    <MDBNavbar expand='lg' light bgColor='primary'>
       <MDBContainer fluid>
 
         <MDBNavbarToggler
@@ -42,11 +42,11 @@ const Navigation = () => {
         </MDBNavbarToggler>
         <MDBCollapse navbar show={showNavSecond}>
           <MDBNavbarNav>
-            <MDBNavbarLink href='collections'>COLLECTIONS</MDBNavbarLink>
-            <MDBNavbarLink href='Readings'>Readings</MDBNavbarLink>
+            <MDBNavbarLink href='Readings'>READINGS</MDBNavbarLink>
             <MDBNavbarLink href='social'>SOCIAL</MDBNavbarLink>
             <MDBNavbarLink href='cinema'>CINEMA</MDBNavbarLink>
             <MDBNavbarLink href='contact'>CONTACT</MDBNavbarLink>
+            <MDBNavbarLink href='Bio'>BIO</MDBNavbarLink>
           </MDBNavbarNav>
         </MDBCollapse>
         <MDBNavbarBrand href='HOME'>
